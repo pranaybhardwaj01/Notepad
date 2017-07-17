@@ -1,0 +1,7 @@
+nb1- Find
+nb2- Find Next
+nb3- Find Previous
+nb4- Find
+nb5- Find Next
+nb6- Replace
+nb7- Replace All

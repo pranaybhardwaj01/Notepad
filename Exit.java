@@ -122,18 +122,20 @@ public void actionPerformed(ActionEvent a)
 		}
 	}
 	else if(e.equals("Don't Save"))
-	{fr.setVisible(false);
-		fr.dispose();
-		close();
+	{
+          fr.setVisible(false);
+	  fr.dispose();
+	  close();
 	}
-		else
-		{
-			fr.setVisible(false);fr.dispose();}
+	else
+	{
+	 fr.setVisible(false);fr.dispose();}
 	}
 
-	public void windowClosing(WindowEvent e)
-  {Window w=e.getWindow();
-  w.setVisible(false);
-  w.dispose();
+  public void windowClosing(WindowEvent e)
+  {
+   Window w=e.getWindow();
+   w.setVisible(false);
+   w.dispose();
   }	
 }
